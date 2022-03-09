@@ -1,0 +1,32 @@
+.topNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: #885a42;
+  color: #fff;
+}
+.topNav h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.nav-link {
+  color: #28201c !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.navBar {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+}
+@media (max-width: 900px) {
+  .navBar {
+    display: none;
+  }
+}
